@@ -11,7 +11,6 @@ security incidents or breaches.
 
 
 ## Overview
-```
 In this incident response lab, I began by creating an analytics rule in Microsoft Sentinel to detect brute-force activity.
 I enabled the rule, mapped it to relevant MITRE ATT&CK framework categories, and configured it to run every four hours
 against the last five hours of data. The rule was set to automatically create an incident upon triggering, with entity
@@ -32,7 +31,6 @@ tightening access controls.
 Finally, in the Post-Incident phase, I documented all findings within the Sentinel incident, acknowledged the need for more
 restrictive NSG policies in the future, and marked the case as a “True Positive.” The incident was reviewed, reported, and
 formally closed out.
-```
 
 ## Creating Alert Rule (Brute Force Attempt)
 ### KQL Query 
